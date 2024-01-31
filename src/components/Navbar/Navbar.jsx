@@ -117,7 +117,7 @@ function Navbar({handleOrderPopup}) {
             <button onClick={()=> handleOrderPopup()} className="btn">Book Now</button>
 
             {/* mobail humburger menu */}
-            <div className="mb:hidden block">
+            <div className="md:hidden block">
                 {
                     showMenu ? (
                         <HiMenuAlt1
